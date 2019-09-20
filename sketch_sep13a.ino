@@ -68,6 +68,10 @@ void motioncheck(){
     if (freq > 250){
       motionpresent=true;
     }
+    if (freq > 500){
+      enter=true;
+      j=2000;
+    }
     delay(5);
   }   
 }
